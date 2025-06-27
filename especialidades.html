@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portifólio de Rafael</title>
+    <style>
+        section {
+            background-color: #704214;
+            color: white;
+            padding: 20px;
+            padding-bottom: 130px;
+        }
+
+        body {
+            background-color: #704214;
+        }
+
+        img {
+            margin: 50px;
+        }
+
+        div#linguagens {
+            background-color: white;
+            color: black;
+            padding-bottom: 5px;
+            margin: 20px 500px 20px 30px;
+            box-shadow: 0px 0px 20px black;
+        }
+
+        a {
+            color: white;
+            text-decoration: none;
+        }
+
+        h1 {
+            margin-left: 50px;
+        }
+    </style>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <h1>Menu principal:</h1>
+            <ul>
+                <li><a href="index.html">Eu</a></li>
+                <li><a href="sobremim.html">Sobre mim</a></li>
+                <li><a href="projetos.html">Projetos</a></li>
+                <li><a href="especialidades.html">Especialidades</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section>
+        <div id="linguagens"><img src="HTML5.jfif" onmouseenter="html()" onmouseleave="sair()"><img src="CSS3.jfif"
+                onmouseenter="css()" onmouseleave="sair()"><img src="JS.jfif" onmouseenter="js()"
+                onmouseleave="sair()"><img src="React.png" onmouseenter="jsx()" onmouseleave="sair()">
+            <div id="descricao">
+                <p>/*Passe o mouse por cima de alguma imagem para ver a descrição.*/</p>
+            </div>
+        </div>
+        <br><br>
+        <a href="Currículo Rafael.pdf" target="_blank">
+            <h1>Link para o curriculo.</h1>
+        </a>
+    </section>
+    <script src="especilidades.js"></script>
+</body>
+
+</html>

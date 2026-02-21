@@ -5,7 +5,7 @@ body {
 header {
     height: 100px;
     display: block;
-    background: url("SemTítulo.png");
+    background: url("imagens/SemTítulo.png");
     box-shadow: 0px 0px 30px black;
     margin-bottom: 30px;
 }

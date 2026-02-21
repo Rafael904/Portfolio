@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portifólio de Rafael</title>
+    <link rel="stylesheet" href="style.css">
     <style>
         section {
             background-color: #704214;
@@ -17,16 +18,21 @@
             background-color: #704214;
         }
 
-        img {
-            margin: 50px;
+        div#linguagens img {
+            margin: 5px 50px 0px 50px;
         }
 
         div#linguagens {
             background-color: #b6b6b6;
             color: black;
             padding-bottom: 5px;
-            margin: 20px 60px 20px 30px;
+            margin-top: -20px;
+            margin-bottom: 20px;
             box-shadow: 0px 0px 20px black;
+        }
+
+        img#curiculo {
+            float: left;
         }
 
         a {
@@ -34,16 +40,16 @@
             text-decoration: none;
         }
 
-        h1 {
-            margin-left: 50px;
+        div#conquistas a img {
+            margin: 20px;
+            display: inline-block;
+            margin-top: -7px;
         }
 
-        p{
-            margin-right:100px;
+        p {
+            margin-right: 100px;
         }
     </style>
-
-    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
@@ -59,19 +65,34 @@
         </nav>
     </header>
     <section>
-        <div id="linguagens"><img src="HTML5.png" onmouseenter="html()" onmouseleave="sair()">
-            <img src="CSS3.png" onmouseenter="css()" onmouseleave="sair()">
-            <img src="JS.png" onmouseenter="js()" onmouseleave="sair()">
-            <img src="TS.jpg" onmouseenter="ts()" onmouseleave="sair()">
-            <img src="React.png" onmouseenter="jsx()" onmouseleave="sair()">
+        <div id="linguagens"><img src="imagens/HTML5.png" onmouseenter="html()" onmouseleave="sair()">
+            <img src="imagens/CSS3.png" onmouseenter="css()" onmouseleave="sair()">
+            <img src="imagens/JS.png" onmouseenter="js()" onmouseleave="sair()">
+            <img src="imagens/TS.jpg" onmouseenter="ts()" onmouseleave="sair()">
+            <img src="imagens/React.png" onmouseenter="jsx()" onmouseleave="sair()">
             <div id="descricao">
                 <p>/*Passe o mouse por cima de alguma imagem para ver a descrição.*/</p>
             </div>
         </div>
-        <br><br>
-        <a href="Currículo Rafael.pdf" target="_blank">
-            <h1>Link para o curriculo.</h1>
-        </a>
+        <div id="conquistas">
+            <a href="Conquistas/Curriculo_Rafael_Gomes_FrontEnd.pdf" target="_blank">
+                <img src="imagens/Currículo.jpg" id="curiculo">
+            </a>
+            <a href="Conquistas/mimo-certificates-219.pdf" target="_blank">
+                <img src="imagens/CertDesenvFront-end.jpg">
+            </a>
+            <a href="Conquistas/mimo-certificates-197.pdf" target="_blank">
+                <img src="imagens/CertJavaScript.jpg">
+            </a>
+            <a href="Conquistas/mimo-certificates-228.pdf" target="_blank">
+                <img src="imagens/CertTypeScript.jpg">
+            </a><br>
+            <a href="Conquistas/EF Level 2 - Beginner - CEFR Level A1.pdf" target="_blank">
+                <img src="imagens/CertInglês.jpg"></a>
+            <a href="Conquistas/mimo-certificates-243.pdf" target="_blank">
+                <img src="imagens/CertReact.jpg">
+            </a>
+        </div>
     </section>
     <script src="especilidades.js"></script>
 </body>

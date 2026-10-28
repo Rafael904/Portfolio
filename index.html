@@ -6,58 +6,109 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfólio de Rafael</title>
     <link rel="stylesheet" href="style.css">
-    <style>
-        section {
-            background-color: #50cf01;
-            display: block;
-            padding: 50px;
-            color: #ffffff;
-            padding-top: 0px;
-        }
-
-        div#contato h2 {
-            color: #ffdcb1;
-        }
-
-        img {
-            margin-left: 180px;
-            margin-bottom: 8px;
-        }
-
-        body {
-            background-color: #50cf01;
-        }
-    </style>
 </head>
 
 <body>
-    <header>
-        <nav>
-            <h1>Menu principal:</h1>
-            <ul>
-                <li><a href="index.html">Eu</a></li>
-                <li><a href="sobremim.html">Sobre mim</a></li>
-                <li><a href="projetos.html">Projetos</a></li>
-                <li><a href="especialidades.html">Especialidades</a></li>
-            </ul>
-        </nav>
-    </header>
-    <section>
+    <section class="sobreMim">
         <h2>Eu sou:</h2>
-        <h1 id="nome">Rafael Luiz <span><br></span>Pereira Gomes</h1>
+        <h1 id="nome">Rafael Luiz Pereira Gomes</h1>
+        <img src="imagens/Eu.jpeg" class="direita" id="eu">
         <div id="contato">
             <br><br>
             <h2>Redes sociais:</h2>
             <a href="mailto:1849rafael@gmail.com" target="_blank">
-                <img src="imagens/Gmail.jfif" onmouseenter="gmail()" onmouseleave="sair()"></a>
-            <a href="https://wa.me/5561993710678" target="_blank">
-                <img src="imagens/Whatsapp.jpg" onmouseenter="whatsapp()" onmouseleave="sair()"></a>
-            <a href="https://github.com/Rafael904" onmouseenter="github()" target="_blank">
-                <img src="imagens/GitHub.jfif" onmouseleave="sair()"></a>
+                <img src="imagens/Gmail.jfif"> Meu e-mail: 1849rafael@gmail.com</a><br />
+            <a href="https://github.com/Rafael904" target="_blank">
+                <img src="imagens/GitHub.jfif"> Meu GitHub: Rafael904</a><br />
             <a href="https://www.linkedin.com/in/rafaellpg" target="_blank">
-                <img src="imagens/linkedIn.jfif" onmouseenter="linkedIn()" onmouseleave="sair()"></a>
-            <p id="contato"><br></p>
+                <img src="imagens/linkedIn.jfif"> Meu LinkedIn: Rafael Gomes</a><br />
+            <a href="https://wa.me/5561993710678" target="_blank">
+                <img src="imagens/Whatsapp.jpg"> Meu telefone: (61) 99371-0678</a>
+
         </div><br>
+        <div id="sm">
+            <p>Olá, meu nome é Rafael, busco minha primeira
+                oportunidade profissional para aplicar meus conhecimentos em desenvolvimento front-end e contribuir com
+                soluções criativas.</p>
+            <p>Meu interesse pela área começou no final de 2023 e, desde então, venho me dedicando continuamente aos
+                estudos e à prática de programação. Trabalhar com tecnologia é um objetivo profissional que levo com
+                muita seriedade e motivação.</p>
+            <p>Atualmente, estudo programação há cerca de dois anos e estou sempre buscando aprender mais, aprimorar
+                minhas habilidades e desenvolver projetos práticos. Tenho grande interesse em crescer profissionalmente
+                e contribuir com a equipe e com a empresa.</p>
+            <p>Tenho 17 anos e sou uma pessoa comprometida, curiosa e disposta a aprender. Além da programação, gosto de
+                jogar videogames e manter um bom relacionamento com amigos e familiares, o que considero importante para
+                o trabalho em equipe.</p>
+            <p>Ficarei muito feliz com a oportunidade de conversar melhor e demonstrar meu interesse e dedicação.</p>
+        </div>
     </section>
-    <script src="contato.js"></script>
+    <section class="projetos">
+        <h2>Meus projetos:</h2>
+        <p>Os projetos abaixo estão organizados em ordem de importância e complexidade, de forma decrescente.</p>
+        <div id="projetos">
+            <h3>💸 ​Calculadora de juros compostos</h3>
+            <p> Meu porjeto principal. Uma calculadora de juros compostos, utilizada para projetar lucros de investimentos.</p>
+            <p>🛠️ Tecnologias Utilizadas: React, HTML, CSS3, JavaScript e Git e GitHub.</p>
+            <p>O porjeto possui interções com uso de React, e conta com uma tabela informativa dos resultados e um hitórico de cálculos.</p>
+            <p>Link do site: <a href="https://dois-milhoes-de-dinheiros.vercel.app/" target="_blank">https://dois-milhoes-de-dinheiros.vercel.app/</a></p>
+            <p>Repositório no GitHub: <a href="https://github.com/Rafael904/calculadora-de-juros-compostos" target="_blank">https://github.com/Rafael904/calculadora-de-juros-compostos</a></p>
+        </div>
+        <div id="projetos">
+            <h3>🚀 QuizLogic</h3>
+            <p> Um jogo web interativo desenvolvido para testar conhecimentos através de perguntas, desafios e lógica.</p>
+            <p>🛠️ Tecnologias Utilizadas: HTML, CSS3, JavaScript e Git e GitHub.</p>
+            <p>Link do site: <a href="https://quizlogicgenio.netlify.app/" target="_blank">https://quizlogicgenio.netlify.app/</a></p>
+            <p>Repositório no GitHub: <a href="https://github.com/Rafael904/QuizLogic" target="_blank">https://github.com/Rafael904/QuizLogic</a></p>
+        </div>
+        <div id="projetos">
+            <h3>🧮 Projetos que fiz em js</h3>
+            <p> Projetos interativos utilizando manipulação de DOM, eventos e lógica condicional.</p>
+            <p>🛠️ Tecnologias Utilizadas: HTML, CSS3, JavaScript e Git e GitHub.</p>
+            <p>Link do site: <a href="https://rafaeleumgenio.netlify.app/" target="_blank">https://rafaeleumgenio.netlify.app/</a></p>
+            <p>Repositório no GitHub: <a href="https://github.com/Rafael904/Interacoes" target="_blank">https://github.com/Rafael904/Interacoes</a></p>
+        </div>
+        <div id="projetos" >
+            <h3> 📱​ Os melhores celulares</h3>
+            <p>Site informativo com estrutura organizada de conteúdo, baseado na minha opinião.</p>
+            <p> O site foi feito em 2024, está desatualizado.</p>
+            <p>🛠️ Tecnologias Utilizadas: HTML, CSS3 e Git e GitHub.</p>
+            <p>Link do site: <a href="https://osmelhorescelulares.netlify.app/" target="_blank">https://osmelhorescelulares.netlify.app/</a></p>
+            <p>Repositório no GitHub: <a href="https://github.com/Rafael904/Melhores-celulares" target="_blank">https://github.com/Rafael904/Melhores-celulares</a></p>
+        </div>
+    </section>
+    <section class="especialidades">
+            <div id="habilidades">
+            <h3>Linguagens:</h3>
+            <img src="imagens/HTML5.png">
+            <img src="imagens/CSS3.png">
+            <img src="imagens/JS.png">
+            <img src="imagens/TS.jpg"><br/>
+            <h3>Bibliotecas/Frameworks:</h3>
+            <img src="imagens/React.png">
+            <img src="imagens/nodejs.png">
+            <h3>Outros</h3>
+            <img src="imagens/git.png">
+            <img src="imagens/GitHub.jfif">
+            </div>
+        </div>
+        <div id="conquistas">
+            <a href="Conquistas/Currículo RafaelDev.pdf" target="_blank">
+                <img src="imagens/Curriculo.png" id="curiculo">
+            </a><br />
+            <a href="Conquistas/mimo-certificates-219.pdf" target="_blank">
+                <img src="imagens/CertDesenvFront-end.jpg">
+            </a>
+            <a href="Conquistas/mimo-certificates-197.pdf" target="_blank">
+                <img src="imagens/CertJavaScript.jpg">
+            </a>
+            <a href="Conquistas/mimo-certificates-228.pdf" target="_blank">
+                <img src="imagens/CertTypeScript.jpg">
+            </a>
+            <a href="Conquistas/EF Level 2 - Beginner - CEFR Level A1.pdf" target="_blank">
+                <img src="imagens/CertInglês.jpg"></a>
+            <a href="Conquistas/mimo-certificates-243.pdf" target="_blank">
+                <img src="imagens/CertReact.jpg">
+            </a>
+        </div>
+    </section>
 </body>

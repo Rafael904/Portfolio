@@ -2,56 +2,21 @@ body {
     margin: 0px;
 }
 
-header {
-    height: 100px;
-    display: block;
-    background: url("imagens/SemTítulo.png");
-    box-shadow: 0px 0px 30px black;
-    margin-bottom: 30px;
-}
-
-header ul {
-    list-style: none;
-    text-transform: uppercase;
-    position: absolute;
-    top: 0px;
-    left: 700px;
-}
-
-header li {
-    display: inline-block;
-    background-color: #dddddd;
-    padding: 10px;
-    margin: 2px;
-    transition: background-color 1s;
-}
-
-header li:hover {
-    background-color: #606060
-}
-
-header h1 {
-    display: none;
-}
-
-header a {
-    color: #000000;
-    text-decoration: none;
-}
-
-header a:hover {
-    color: #ffffff;
-}
-
 h2 {
     margin-top: 0px;
     font-size: 50px;
     text-indent: 150px;
+    padding-top: 5px;
 }
 
 h1 {
-    margin: -50px 10px -20px auto;
-    font-size: 100px;
+    margin: -10px 10px -20px auto;
+    font-size: 80px;
+}
+
+h3 {
+    font-size: 30px;
+    margin: 10px
 }
 
 p {
@@ -65,24 +30,108 @@ p {
     float: right;
 }
 
-@media(min-width: 1200px) {
-    span {
-        display: none;
-    }
+
+
+section.sobreMim{
+    background-color: #50cf01;;
+    padding-bottom: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: white;
 }
 
-@media(max-width: 1200px) {
-    header {
-        height: 120px;
-    }
+section.sobreMim a {
+    font-size: 35px;
+    color: black;
+    text-decoration: none;
+}
 
-    header ul {
-        list-style: none;
-        text-transform: uppercase;
-        position: absolute;
-        top: 0px;
-        left: 0px;
-    }
+section.sobreMim div#sm p{
+    text-align: justify;
+    text-indent: 50px;
+    font-size: 30px;
+    width: 95%;
+}
+
+section.sobreMim h2 {
+    color: #606060;
+    margin-bottom: 10px;
+}
+
+section.sobreMim img {
+    margin-left: 130px;
+    margin-bottom: 8px;
+    height: 15px;
+    width: auto;
+}
+
+section.sobreMim img#eu{
+    height: 411px;
+    margin: 10px;
+    margin-top: 10px;
+}
+
+
+
+section.projetos {
+    background-color: yellow;
+    padding: 40px 20px 20px;
+}
+
+section.projetos div#projetos {
+    display: block;
+    box-sizing: border-box;
+    width: 90vw;
+    margin: 30px auto;
+    padding: 10px 20px;
+    background-color: white;
+    box-shadow: 0px 0px 5px black;
+    color: black;
+    white-space: normal;
+}
+
+section.projetos h2 {
+    width: 100%;
+    margin-top: -25px;
+    margin-bottom: 10px;
+}
+
+
+section.especialidades {
+    background-color: #3b97d4;
+    color: white;
+    padding: 20px;
+    padding-bottom: 0px;
+}
+
+section.especialidades div#habilidades img {
+    margin: 5px 50px 0px 50px;
+    height: 100px;
+    width: auto;
+}
+
+section.especialidades div#habilidades {
+    display: block;
+    float: right;
+    width: 600px;
+    background-color: #b6b6b6;
+    color: black;
+    padding-bottom: 5px;
+    box-shadow: 0px 0px 20px black;
+
+}
+
+section.especialidades a {
+    color: white;
+    text-decoration: none;
+}
+
+section.especialidades div#conquistas a img {
+    margin: 15px;
+    display: inline-flex;
+}
+
+@media(max-width: 1100px) {
 
     h2 {
         margin-top: 0px;
@@ -91,7 +140,7 @@ p {
     }
 
     h1 {
-        margin: -30px 10px 20px auto;
+        margin: -10px 10px -20px auto;
         font-size: 50px;
     }
 
@@ -112,63 +161,30 @@ p {
     }
 
 
-    a#projetos img {
-        width: 320px;
-        height: 152px;
-        padding-top: 30px;
-    }
 
-    img#eu {
-        margin-right: 100px;
-    }
-
-    div#sm {
-        margin-right: 100px;
-    }
-
-    @media (min-width: 769px) {
-        a#projetos {
-            margin: 20px -150px 0px -20px;
-            background: none;
-            box-shadow: none;
-        }
-
-        a.js img {
-            margin-top: 0px;
-        }
-
-        span {
-            display: none;
-        }
-    }
-}
-
-@media (max-width: 768px) {
-    a#projetos {
-        margin: 20px 0px 0px 100px;
-        background: none;
-        box-shadow: none;
-    }
-
-    a.direita img {
-        margin-left: 150px;
-    }
-
-    a.js img {
+    section.sobreMim a {
         margin-left: -120px;
     }
 
-    div#linguagens {
-        background-color: white;
-        color: black;
-        padding-bottom: 5px;
-        margin: 0px 0px 0px -50px;
-        box-shadow: 0px 0px 20px black;
-        width: 320px;
+
+
+    section.especialidades div#habilidades{
+        float: none;
+        width: 90%;
+        margin: auto
+    }
+}
+
+@media (max-width: 600px) {
+    section.sobreMim img#eu{
+        float: none;
     }
 
-    div#linguagens img {
-        margin: 30px;
+    section.sobreMim a{
+        font-size: 25px;
     }
 
+    section.sobreMim div#sm p{
+        font-size: 25px;
+    }
 }

@@ -8,10 +8,9 @@
 ---
 
 ## 📸 Demonstração
-<img width="1365" height="630" alt="image" src="https://github.com/user-attachments/assets/84276566-d7bb-448a-b54d-196c31dcbd76" />
-<img width="1365" height="630" alt="image" src="https://github.com/user-attachments/assets/c151afe1-8fb6-4e64-b671-177e6ac32fe1" />
-<img width="1365" height="630" alt="image" src="https://github.com/user-attachments/assets/62e59996-65f2-4d08-89cd-a35c425eac8b" />
-<img width="1365" height="630" alt="image" src="https://github.com/user-attachments/assets/e598eb15-e30f-45bf-a880-12771cb9e49f" />
+<img width="1365" height="678" alt="Screenshot 2026-10-28 2 30 47 PM" src="https://github.com/user-attachments/assets/9c2676c1-cc63-47e0-bccc-f298d74f2cfc" />
+<img width="1365" height="678" alt="Screenshot 2026-10-28 2 30 58 PM" src="https://github.com/user-attachments/assets/3bcdd08d-fb34-46ea-9176-f993e62e1db7" />
+<img width="1365" height="678" alt="image" src="https://github.com/user-attachments/assets/5715b2a9-2505-41a2-96ae-eebe71ea11af" />
 
 ---
 

@@ -1,5 +1,6 @@
 body {
     margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 h2 {
@@ -38,97 +39,97 @@ section.sobreMim{
     padding-left: 20px;
     padding-right: 20px;
     color: white;
-}
 
-section.sobreMim a {
-    font-size: 35px;
-    color: black;
-    text-decoration: none;
-}
+    a {
+        font-size: 35px;
+        color: black;
+        text-decoration: none;
+    }
 
-section.sobreMim div#sm p{
-    text-align: justify;
-    text-indent: 50px;
-    font-size: 30px;
-    width: 95%;
-}
+    p{
+        text-align: justify;
+        text-indent: 50px;
+        font-size: 30px;
+        width: 95%;
+    }
 
-section.sobreMim h2 {
-    color: #606060;
-    margin-bottom: 10px;
-}
+    h2 {
+        color: #606060;
+        margin-bottom: 10px;
+    }
 
-section.sobreMim img {
-    margin-left: 130px;
-    margin-bottom: 8px;
-    height: 15px;
-    width: auto;
-}
+    h3{
+        color: #d6d6d6;
+    }
 
-section.sobreMim img#eu{
-    height: 411px;
-    margin: 10px;
-    margin-top: 10px;
-}
+    img {
+        margin-left: 130px;
+        margin-bottom: 8px;
+        height: 15px;
+        width: auto;
+    }
 
+    img#eu{
+        height: 411px;
+        margin: 10px;
+        margin-top: 10px;
+    }
+}
 
 
 section.projetos {
     background-color: yellow;
     padding: 40px 20px 20px;
-}
 
-section.projetos div#projetos {
-    display: block;
-    box-sizing: border-box;
-    width: 90vw;
-    margin: 30px auto;
-    padding: 10px 20px;
-    background-color: white;
-    box-shadow: 0px 0px 5px black;
-    color: black;
-    white-space: normal;
-}
+    div#projetos {
+        display: block;
+        box-sizing: border-box;
+        width: 90vw;
+        margin: 30px auto;
+        padding: 10px 20px;
+        background-color: white;
+        box-shadow: 0px 0px 5px black;
+        color: black;
+        white-space: normal;
+    }
 
-section.projetos h2 {
-    width: 100%;
-    margin-top: -25px;
-    margin-bottom: 10px;
+    h2 {
+        width: 100%;
+        margin-top: -25px;
+        margin-bottom: 10px;
+    }
 }
-
 
 section.especialidades {
     background-color: #3b97d4;
-    color: white;
     padding: 20px;
     padding-bottom: 0px;
-}
 
-section.especialidades div#habilidades img {
-    margin: 5px 50px 0px 50px;
-    height: 100px;
-    width: auto;
-}
+    div#habilidades img {
+        margin: 5px 50px 0px 50px;
+        height: 100px;
+        width: auto;
+    }
 
-section.especialidades div#habilidades {
-    display: block;
-    float: right;
-    width: 600px;
-    background-color: #b6b6b6;
-    color: black;
-    padding-bottom: 5px;
-    box-shadow: 0px 0px 20px black;
+    div#habilidades {
+        display: block;
+        float: right;
+        width: 600px;
+        background-color: #b6b6b6;
+        color: black;
+        padding-bottom: 5px;
+        box-shadow: 0px 0px 20px black;
+        
+        h2{
+            text-indent: 30px;
+            margin-left: 10px;
+        }
+    }
 
-}
-
-section.especialidades a {
-    color: white;
-    text-decoration: none;
-}
-
-section.especialidades div#conquistas a img {
-    margin: 15px;
-    display: inline-flex;
+    div#conquistas a img {
+        margin: 15px;
+        display: inline-flex;
+    }
 }
 
 @media(max-width: 1100px) {
@@ -144,8 +145,12 @@ section.especialidades div#conquistas a img {
         font-size: 50px;
     }
 
-    p {
-        font-size: 22px;
+    h3{
+        font-size: 28px;
+    }
+
+    section.sobreMim p {
+        font-size: 24px;
         text-indent: 5px;
         margin: 5px;
     }
@@ -160,13 +165,10 @@ section.especialidades div#conquistas a img {
         width: 100%;
     }
 
-
-
     section.sobreMim a {
         margin-left: -120px;
+        font-size: 27px;
     }
-
-
 
     section.especialidades div#habilidades{
         float: none;
